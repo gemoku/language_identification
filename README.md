@@ -10,7 +10,30 @@ The underlying vector model is a variation of an n-gram frequency statistics mod
 - when a query comes in, extract ngram statistics for this query, build a query vector and compare it to each of the vectors in the trained model. In this program I use the 1-nearest neighbour algorithm and cosine similarity as distance metric to detect the closest vector and corresponding language.
 - the highest scoring vector corresponds to the predicted language of the input text.
 
-Despite the simplicity of the model, it achieves quite good results: accuracy above 96 % for 21 languages of Europarl corpus (see details below).
+Despite the simplicity of the model, it achieves quite good results - accuracies across 21 languages of the Europarl corpus:
+| Language        | Accuracy           | 
+| ------------- |:-------------:| -----:|
+|bg | 100.0
+|cs | 96.2753036437
+|da | 98.3881799866
+|de | 99.9405116002
+|el | 100.0
+|en | 99.2810457516
+|es | 98.2737361282
+|et | 99.5153473344
+|fi | 99.8706338939
+|fr | 99.8211091234
+|hu | 99.4875549048
+|it | 99.9418604651
+|lt | 99.67400163
+|lv | 99.6763754045
+|nl | 99.8724489796
+|pl | 100.0
+|pt | 99.156626506
+|ro | 99.5652173913
+|sk | 98.8853503185
+|sl | 99.7485331098
+|sv | 96.5140123035
 
 ### How to run
 
