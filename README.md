@@ -1,5 +1,7 @@
 # language_identification
 
+###A Python implementation of a simple method to identify the language of a document
+
 ### Description
 
 The underlying vector model is a variation of an n-gram frequency statistics model of [Marc Damashek (1995)] (http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.159.7010&rep=rep1&type=pdf): 
