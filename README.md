@@ -11,6 +11,7 @@ The underlying vector model is a variation of an n-gram frequency statistics mod
 - the highest scoring vector corresponds to the predicted language of the input text.
 
 Despite the simplicity of the model, it achieves quite good results - accuracies across 21 languages of the Europarl corpus:
+
 | Language        | Accuracy           | 
 | ------------- |:-------------:| -----:|
 |bg | 100.0
